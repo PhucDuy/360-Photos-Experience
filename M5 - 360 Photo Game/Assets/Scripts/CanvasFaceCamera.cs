@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CanvasFaceCamera : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-        //get direction (pos of the canvas - pos of the camera)
-        Vector3 direction = transform.position - Camera.main.transform.position;
+        // Use this for initialization
+        void Start () {
+                //get direction (pos of the canvas - pos of the camera)
+                Vector3 direction = transform.position - Camera.main.transform.position;
 
-        //set forward of the canvas
-        transform.forward = direction;
-	}
+                //set forward of the canvas
+                transform.forward = direction;
+        }
 }
